@@ -7,7 +7,7 @@ dist
 *.log*
 *.debug*
 
-# yarn berry PnP zero-install
+# yarn berry PnP loose without zero-install
 
 # https://yarnpkg.com/advanced/qa#which-files-should-be-gitignored
 .yarn/*
@@ -17,9 +17,9 @@ dist
 !.yarn/versions
 # if you are NOT using Zero-installs, then:
 # comment the following lines
-!.yarn/cache
+# !.yarn/cache
 # and uncomment the following lines
-# .pnp.*
+.pnp.*
 
 # other package manager's stuff
 .yarnrc
