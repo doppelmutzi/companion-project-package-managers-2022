@@ -7,7 +7,10 @@ dist
 *.log*
 *.debug*
 
-# other package manager's stuff
+# other package managers' stuff
+yarn.lock
+.yarnrc
+.yarnrc.yml
 .pnp.*
 .yarn/*
 !.yarn/patches
@@ -16,6 +19,5 @@ dist
 !.yarn/sdks
 !.yarn/versions
 node_modules
-package-lock.json
 pnpm-lock.yaml
 

@@ -5,10 +5,10 @@
     "l": "ntl",
     "start": "npm-run-all -l --parallel dev server",
     "dev": "webpack serve --env env=dev",
-    "dev:analyze": "yarn dev -- --env addons=bundleanalyzer",
+    "dev:analyze": "npm run dev -- --env addons=bundleanalyzer",
     "prebuild": "rimraf dist",
     "build": "webpack --env env=prod",
-    "build:analyze": "yarn build -- --env addons=bundleanalyzer",
+    "build:analyze": "npm run build -- --env addons=bundleanalyzer",
     "server": "http-server --p 4000 --cors -c-1 ./public/assets"
   },
   "dependencies": {
