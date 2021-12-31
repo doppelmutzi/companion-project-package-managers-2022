@@ -7,7 +7,7 @@ dist
 *.log*
 *.debug*
 
-# yarn berry PnP loose without zero-install
+# yarn berry without zero-install
 .pnp.*
 .yarn/*
 !.yarn/patches
