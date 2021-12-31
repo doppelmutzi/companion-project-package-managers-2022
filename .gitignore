@@ -7,7 +7,7 @@ dist
 *.log*
 *.debug*
 
-# yarn berry node-modules linker
+# other package manager's stuff
 .pnp.*
 .yarn/*
 !.yarn/patches
@@ -15,10 +15,6 @@ dist
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-
-# other package manager's stuff
-.yarnrc
-.npmrc
 node_modules
 package-lock.json
 pnpm-lock.yaml
