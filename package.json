@@ -1,14 +1,15 @@
 {
   "name": "package-manager-playground",
   "version": "1.0.0",
+  "packageManager": "pnpm@6.24.4",
   "scripts": {
     "l": "ntl",
     "start": "npm-run-all -l --parallel dev server",
     "dev": "webpack serve --env env=dev",
-    "dev:analyze": "npm run dev -- --env addons=bundleanalyzer",
+    "dev:analyze": "pnpm dev -- --env addons=bundleanalyzer",
     "prebuild": "rimraf dist",
     "build": "webpack --env env=prod",
-    "build:analyze": "npm run build -- --env addons=bundleanalyzer",
+    "build:analyze": "pnpm build -- --env addons=bundleanalyzer",
     "server": "http-server --p 4000 --cors -c-1 ./public/assets"
   },
   "dependencies": {
