@@ -1,0 +1,50 @@
+[
+  {
+    "file": "http://localhost:4000/pomodoro-times-up.mp3",
+    "label": "Beep"
+  },
+  {
+    "file": "http://localhost:4000/cartoon-birds.mp3",
+    "label": "Cartoon Birds"
+  },
+  {
+    "file": "http://localhost:4000/stag-roar.mp3",
+    "label": "Red Stag Roar"
+  },
+  {
+    "file": "http://localhost:4000/explosion.mp3",
+    "label": "Explosion"
+  },
+  {
+    "file": "http://localhost:4000/tree-fall.mp3",
+    "label": "Small Tree Fall"
+  },
+  {
+    "file": "http://localhost:4000/van-sliding-door.mp3",
+    "label": "Van Sliding Door"
+  },
+  {
+    "file": "http://localhost:4000/barking-dog.mp3",
+    "label": "Barking Dog"
+  },
+  {
+    "file": "http://localhost:4000/old-car-starting.mp3",
+    "label": "Old Car Starting"
+  },
+  {
+    "file": "http://localhost:4000/sos.mp3",
+    "label": "SOS Morse Code"
+  },
+  {
+    "file": "http://localhost:4000/airplane-landing.mp3",
+    "label": "Airplane Landing"
+  },
+  {
+    "file": "http://localhost:4000/rain.mp3",
+    "label": "Heavy Rain Wind"
+  },
+  {
+    "file": "http://localhost:4000/service-bell.mp3",
+    "label": "Service Bell Help"
+  }
+]
