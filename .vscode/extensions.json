@@ -18,6 +18,7 @@
     "eamodio.gitlens",
     "sirtori.indenticator",
     "alefragnani.project-manager",
-    "ericadamski.carbon-now-sh"
+    "ericadamski.carbon-now-sh",
+    "arcanis.vscode-zipfs"
   ]
 }

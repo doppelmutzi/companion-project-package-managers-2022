@@ -17,4 +17,7 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["react"],
+  rules: {
+    "import/no-duplicates": 0,
+  },
 };
