@@ -1,0 +1,1 @@
+rm -rf .yarn/cache && rm -rf node_modules && rm yarn.lock && yarn

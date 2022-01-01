@@ -1654,9 +1654,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 17.0.5
-  resolution: "@types/node@npm:17.0.5"
-  checksum: 105535e78722515c26cfdc1b0cbf1b19f55fe53b814e2e90d8b1e653bc63136d4760c7efc102eca111c6d124a291e37d60d761d569a3f4afb3fba05bad5d9ade
+  version: 17.0.6
+  resolution: "@types/node@npm:17.0.6"
+  checksum: 36fda5555ec759132886721f59fa74333947f7148b7dcce3de0a78c36f37f57ec86a3d09fd38c835ba65c8de77905de6c01523ec99864d8cead83f404118a44a
   languageName: node
   linkType: hard
 
@@ -1972,7 +1972,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn@npm:^8.0.4, acorn@npm:^8.4.1, acorn@npm:^8.6.0":
+"acorn@npm:^8.0.4, acorn@npm:^8.4.1, acorn@npm:^8.7.0":
   version: 8.7.0
   resolution: "acorn@npm:8.7.0"
   bin:
@@ -3282,9 +3282,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.17":
-  version: 1.4.30
-  resolution: "electron-to-chromium@npm:1.4.30"
-  checksum: ae786f52ee2530648e68264a6a771b6ca60d3c2b192f19e799be9aa5df0f9819d6a183f771497f37fb03df28846b968aab79252c79ca1f397ca030ccf7733c9f
+  version: 1.4.31
+  resolution: "electron-to-chromium@npm:1.4.31"
+  checksum: 78785efba7b285243a2c57b6c3165cc72d2c029c40df6b3171fdc2b5693df587ccb0d094b8b3d67448fad01cd98dbb4ce7a0dcc3c1b0d58b84a178de28deb20d
   languageName: node
   linkType: hard
 
@@ -3728,13 +3728,13 @@ __metadata:
   linkType: hard
 
 "espree@npm:^9.2.0":
-  version: 9.2.0
-  resolution: "espree@npm:9.2.0"
+  version: 9.3.0
+  resolution: "espree@npm:9.3.0"
   dependencies:
-    acorn: ^8.6.0
+    acorn: ^8.7.0
     acorn-jsx: ^5.3.1
     eslint-visitor-keys: ^3.1.0
-  checksum: ae533a058036e3efeeac43a0ee39c74ab347e2a73bbe2946fba33cc0d84aca657e675bc317ed9afd95338f79d5d5a862afec2f717d2539ae13fa9f1638371761
+  checksum: c0f1885c4eab652f9be08eb9228cea0df046b559b29d4aed8d6590ea9bd60177d4cb245d204a6f737a79a096861bb4ab8e480aeb8c1dbafef5beec1157353ce4
   languageName: node
   linkType: hard
 
