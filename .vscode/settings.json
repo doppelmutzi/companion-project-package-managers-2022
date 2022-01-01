@@ -14,5 +14,11 @@
   "workbench.editor.enablePreview": false,
   "workbench.colorCustomizations": {
     "titleBar.activeBackground": "#0e851e" // Change this color!
-  }
+  },
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "eslint.nodePath": ".yarn/sdks",
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js"
 }
