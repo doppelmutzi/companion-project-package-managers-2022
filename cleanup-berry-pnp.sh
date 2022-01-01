@@ -1,0 +1,1 @@
+rm -rf .yarn/cache && rm -rf .yarn/unplugged && rm .yarn/install-state.gz && rm .pnp* && rm yarn.lock && yarn
