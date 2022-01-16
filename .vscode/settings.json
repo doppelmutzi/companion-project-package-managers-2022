@@ -14,5 +14,10 @@
   "workbench.editor.enablePreview": false,
   "workbench.colorCustomizations": {
     "titleBar.activeBackground": "#0e851e" // Change this color!
-  }
+  },
+  "spellright.language": [],
+  "spellright.documentTypes": [
+    "markdown",
+    "latex"
+  ]
 }
