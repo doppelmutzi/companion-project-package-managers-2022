@@ -11,13 +11,7 @@ dist
 yarn.lock
 .yarnrc
 .yarnrc.yml
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
+.yarn/
 package-lock.json
 node_modules
 
