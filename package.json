@@ -2,6 +2,20 @@
   "name": "package-manager-playground",
   "version": "1.0.0",
   "packageManager": "pnpm@6.24.4",
+  "pnpm": {
+    "packageExtensions": {
+      "styled-components": {
+        "dependencies": {
+          "react-is": "*"
+        }
+      },
+      "autoprefixer": {
+        "dependencies": {
+          "postcss": "*"
+        }
+      }
+    }
+  },
   "scripts": {
     "l": "ntl",
     "start": "npm-run-all -l --parallel dev server",
